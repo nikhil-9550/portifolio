@@ -1,0 +1,186 @@
+body{
+    background-color: rgb(2,42,48);
+}
+.navbar{
+    background-color: rgb(3,63,71);
+}
+.virat{
+    width: 100px;
+    height: 100px;
+    border: 6px solid white;
+    border-radius: 30px;
+
+    
+}
+#description-section{
+    color: aliceblue;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+#service-section{
+    color: aliceblue;
+    width: 80%;
+    margin: 30px auto;
+}
+.Project-section{
+    color: aliceblue;
+    width: 80%;
+    margin: 30px auto;
+    height: 100vh;
+
+}
+.blog-section{
+    color: aliceblue;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 40px;
+
+}
+#contact-section{
+    color: aliceblue;
+   
+ height: 100vh;    
+    display: flex; 
+    align-items: center;
+    justify-items: center;
+      
+}
+#footer{
+    color: white;
+}
+.service-card{
+    background-color: rgb(3,63,71);
+    color: white;
+    padding: 20px;
+}
+.blog-card{
+    background-color: rgb(3,63,71);
+    color: white;
+}
+.blog-card-img{
+    width: 100%;
+}
+.Product-card{
+    background-color: rgb(3,63,71);
+    color: white; 
+    transition: 5s; 
+    transition-property: box-shadow; 
+    border-radius: 10px;
+}
+.Product-card:hover{
+  cursor: pointer;
+  box-shadow: -6px 5px 0px yellowgreen;  
+}
+
+.read-more{
+    text-decoration: none; 
+    color:gray;
+}
+.icon-wrapper{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 10px;
+    background-color: rgb(138, 138, 35);
+}
+.footer-icon-wrapper{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    border-radius: 20px;
+    background-color: rgb(3,63,71);
+    
+}    
+/* .footer-icon-wrappe:hover{
+ cursor: pointer;   
+} */
+.project-img{
+    width: 100%;
+    height: 100%;
+    transition-duration: 1s;
+    transition-property:transform ;
+}
+.project-img:hover{
+    transform: scale(1.2);
+}
+.Project-img-Wrapper{
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+}
+.form-row{
+    margin-top: 20px;
+}
+.form-control{
+    background-color:rgb(2, 42, 48) ;
+    color: white;
+}
+.form-control::placeholder{
+    font-size: 15px;
+    color: white;
+}
+.form-control:focus{
+    background-color:rgb(2, 42, 48) ;
+    border: 4px solid yellowgreen;
+}
+.footer-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px;
+}
+.footer-icon-wrapper{
+    display: flex;
+}
+.footer-icon-wrapper:hover{
+    cursor: pointer;
+}
+
+#footer-sectionn{
+padding: 60px 0px;
+}
+@media (min-width:992px){
+    
+        .navbar{
+           width: 20%;
+           height: 100vh;
+           position: fixed;
+              }
+        #description-section{
+              width: 75%;
+              margin-left: auto;
+            }   
+        #service-section{
+                color: aliceblue;
+                width: 75%;
+                margin-right: 0px;
+                margin-left: auto;
+                padding: 50px;
+            }
+        .Project-section{
+            color: aliceblue;
+                width: 75%;
+                margin-right: 0px;
+                margin-left: auto;
+                padding: 50px;
+        }
+        #Blog-section{
+            color: aliceblue;
+                width: 75%;
+                margin-left: auto;
+                margin-right: 0px;
+                padding: 50px;
+        }
+        #footer-sectionn{
+            width: 75%;
+            margin-left: auto;            }
+       
+}
